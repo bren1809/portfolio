@@ -106,7 +106,7 @@ body {
 .apresentacao__imagem__brener {
     border-radius: 70px 0px 70px 0px;
     border: 5px solid var(--cor-terciaria);
-    width: 100%;
+    width: auto;
 }
 
 .rodape {
@@ -141,9 +141,10 @@ body {
     .apresentacao__links__navegacao {
         width: 80% ;
     }
-   
 }
 
-@media (max-width: 650px) {
-    
+@media (max-width: 500px) {
+    .apresentacao__imagem__brener {
+        width: 100%;
+    }
 }
